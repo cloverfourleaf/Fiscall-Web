@@ -1,0 +1,300 @@
+.divisaoPadrao{
+    padding: 5px;
+    height:45px;
+    background:#384176;
+}
+
+
+button{
+    border-radius:8px;
+    color:black; 
+    background-color: #ccc;
+}
+
+.btn-custom{
+ border: none;   
+}
+
+#toolbar-admin{
+    display: none;
+}
+#ate{
+    display: none;
+}
+#ateB{
+    display: none;
+}
+/*-------------------------------------------------------------------------------------------*/
+#tdFiscal{
+    display: none;
+}
+#buscaFiscall{
+    display: none;
+}
+#relatorioI{
+    margin-top: 2.3%;
+}
+#buscaEs{
+    margin-top: 2.3%; 
+}
+#divEsconder{
+    display:none;
+}
+
+#divEsconderF{
+    display:none;
+}
+
+body{
+ background:#c4bebe;
+ padding: 0;
+ margin: 0;
+}
+
+h1{
+    color: #eeeeee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+h2{
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+
+h3{
+    margin:5px;
+    padding: 5px;
+}
+
+input{
+    border-radius: 8px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+.Cima{ /*BARRA AZUL LATERAL*/
+    padding: 1px;
+    background:#384176;
+    width: 200px;
+    height: 920px;
+    position: fixed;
+    top: 0px;
+}
+/*-------------------------------------------------------------------------------------------*/
+.Bv{ /*CARDAPIO SÓ QUE DE BEM VINDO*/
+    padding: 5px;
+    height:70px;
+    background:#384176;
+} 
+
+.casa{
+    position: absolute;
+    margin: 0px 100px 0px 0px;
+    top: 14px;  
+  }
+
+.TxtInicio{
+    margin-left:40px;
+    margin-top: 10px;
+   }
+
+/*-------------------------------------------------------------------------------------------*/
+
+.separador{
+    padding: 5px;
+    height:120px;
+    background:#384176;
+}
+
+.divisaoPadrao{
+    padding: 5px;
+    height:45px;
+    background:#384176;
+}
+    
+.txtPadrao{
+    margin-left:40px;
+    margin-top: -15px;
+}
+
+.imgPadrao{
+    position: absolute;
+/*    margin: 0px 100px 0px 0px;
+    top: 107px;*/
+    margin-top: -32px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+.divisaoModelo{
+    padding: 5px;
+    height:45px;
+    background:#384176;
+}
+.imgModelo{
+    position: absolute;
+    /*margin: 0px 100px 0px 0px;
+    top: 320px;  */
+    margin-top:-50px;
+}
+/*------------------------------------------------------------------------------------------*/
+
+.Titulo{
+    position: absolute;
+    margin-left: 700px;
+    top:8px;
+}
+
+.NomeTxt{
+    position: absolute;
+    margin-left: 350px;
+    top:60px;
+}
+
+.Nome{
+    position: absolute;
+    margin-left: 350px;
+    top:90px;
+}
+
+.RgTxt{
+    position: absolute;
+    margin-left: 570px;
+    top:60px;
+}
+
+.RG{
+    position: absolute;
+    margin-left: 570px;
+    top:90px;
+}
+
+.CnhTxt{
+    position: absolute;
+    margin-left: 800px;
+    top:60px;
+}
+
+.CNH{
+    position: absolute;
+    margin-left: 800px;
+    top:90px;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+.Btn{
+    position: absolute;
+    margin-left: 1020px;
+    top: 98px;
+}
+
+.BotaoTipoUsuario {
+    position: absolute;
+    top: 274px;
+    left: 480px;
+}
+
+.BotaoTipoUsuarioF {
+    position: absolute;
+    left: 150px;
+    top: 25px;
+}
+
+.BotaoFabricante{
+    position: absolute;
+    top:200px;
+    left: 670px;   
+}
+
+.BotaoFabricanteM{
+    position: absolute;
+    top:127px;
+    left:760px;
+}
+
+.BotaoModelo{
+    position: absolute;
+    top:274px;
+    left: 390px;
+}
+    
+.BotaoTipoModelo {
+    position: absolute;
+    top:200px;
+    left: 480px;   
+}
+
+.BotaoCooperativa{
+    position: absolute;
+    top:27px;
+    left: 175px;
+}
+
+.btnRela{
+     margin-top:24px;
+ 
+}
+
+.btnBusRel{
+
+margin-top: 24px;
+
+}
+/*-------------------------------------------------------------------------------------------*/
+.btn-custom{
+ border: none;   
+}
+
+#toolbar-admin{
+    display: none;
+}
+.arrumaTurno {
+    position:relative;min-height:1px;padding-right:15px;padding-left:415px
+}
+
+.BotaoTipoOnibus {
+    position: absolute;
+    top:348px;
+    left: 390px;   
+}
+
+
+.separadorFiscal {
+    padding: 5px;
+    height:175px;
+    background:#384176;
+}
+
+.BotaoLinha {
+    position: absolute;
+    top:25px;
+    left: 240px;
+}
+
+.BotaoOnibus {
+    position: absolute;
+    top:25px;
+    left: 150px;
+
+}
+
+.BotaoMotorista {
+    position: absolute;
+    top:25px;
+    left: 240px;
+}
+
+#limite {
+  max-width: 20ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.adicionaAlocacao{
+right:60px;
+top:20px;
+position:absolute;
+}
