@@ -12,6 +12,7 @@
     $Status  = $_POST['Status'];
     $Saida  = $_POST['Saida'];
     $SaidaAte  = $_POST['SaidaAte'];
+
     
     $pagina_atual = filter_input(INPUT_GET,'pagina', FILTER_SANITIZE_NUMBER_INT);		
     $pagina = (!empty($pagina_atual)) ? $pagina_atual : 1;
@@ -144,7 +145,6 @@
     $insert = mysqli_query($connect,$query);
     $insert2 = mysqli_query($connect,$query2);
     if($insert && $insert2){
-    echo"dhsdhasjdhaskjdhjskahdkjashdkjashdkjsahdksaj";
     ?>
     
  <table id = "result" class="table table-striped" cellspacing="0" cellpadding="0">

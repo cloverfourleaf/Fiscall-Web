@@ -1,5 +1,6 @@
 <?php
-$conn = mysqli_connect('fdb20.agilityhoster.com','2753888_bdfiscall','clover4folhas','2753888_bdfiscall');
+/*$conn = mysqli_connect('fdb20.agilityhoster.com','2753888_bdfiscall','clover4folhas','2753888_bdfiscall');*/     
+$conn = mysqli_connect('localhost','root','','bdfiscall');;
 $busca =  $_POST['busca'];
 
 $query = mysqli_query($conn, "SELECT * FROM tbgerenciamentolinha

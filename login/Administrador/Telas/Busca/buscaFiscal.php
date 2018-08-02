@@ -1,7 +1,8 @@
 
 <?php
 
-$conn = mysqli_connect('fdb20.agilityhoster.com','2753888_bdfiscall','clover4folhas','2753888_bdfiscall');
+/*$conn = mysqli_connect('fdb20.agilityhoster.com','2753888_bdfiscall','clover4folhas','2753888_bdfiscall');*/     
+$conn = mysqli_connect('localhost','root','','bdfiscall');
 
 $busca =  $_REQUEST['busca'];
 $query = mysqli_query($conn, "SELECT nomeFuncionario FROM tbfuncionario INNER JOIN tbusuario ON tbfuncionario.codUsuario = tbusuario.codUsuario WHERE nomeFuncionario LIKE '%$busca%' AND codNivelUsuario=3 

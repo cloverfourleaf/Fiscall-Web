@@ -1100,7 +1100,6 @@ function relatorioCruzado(){
      var cChegada = document.getElementById('chkChegada').checked;
      var cChegadaAte = document.getElementById('chkChegadaAte').checked;
      var cPrevisto = document.getElementById('chkPrevisto').checked;
-     alert("a");
      var cPrevistoAte = document.getElementById('chkPrevistoAte').checked;
      var cStatus = document.getElementById('chkStatus').checked;
      var cSaida = document.getElementById('chkSaida').checked;
@@ -1134,7 +1133,7 @@ function relatorioCruzado(){
                 PrevistoAte: PrevistoAte,
                 Status: Status,
                 Saida: Saida,
-                SaidaAte: SaidaAte
+                SaidaAte: SaidaAte                
                 
             });
             
@@ -1146,6 +1145,7 @@ function relatorioCruzado(){
                 escolha: escolha,
                 Fiscal: Fiscal,
                 Motorista: Motorista
+                alert("a");
                 
             });
             
