@@ -46,7 +46,7 @@ button{
 }
 
 body{
- background:#c4bebe;
+ background:#d9d9d9;
  padding: 0;
  margin: 0;
 }
@@ -76,7 +76,7 @@ input{
 
 .Cima{ /*BARRA AZUL LATERAL*/
     padding: 1px;
-    background:#384176;
+    background:#1d323f;
     width: 200px;
     height: 920px;
     position: fixed;
@@ -86,7 +86,7 @@ input{
 .Bv{ /*CARDAPIO SÓ QUE DE BEM VINDO*/
     padding: 5px;
     height:70px;
-    background:#384176;
+    background:#1d323f;
 } 
 
 .casa{
@@ -105,13 +105,13 @@ input{
 .separador{
     padding: 5px;
     height:120px;
-    background:#384176;
+    background:#1d323f;
 }
 
 .divisaoPadrao{
     padding: 5px;
     height:45px;
-    background:#384176;
+    background:#1d323f;
 }
     
 .txtPadrao{
@@ -130,7 +130,7 @@ input{
 .divisaoModelo{
     padding: 5px;
     height:45px;
-    background:#384176;
+    background:#1d323f;
 }
 .imgModelo{
     position: absolute;

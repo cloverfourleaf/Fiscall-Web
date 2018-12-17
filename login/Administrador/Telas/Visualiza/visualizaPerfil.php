@@ -37,7 +37,7 @@ $codFuncionario = $_SESSION['codFuncionario'];?>
                         <input type="text" class="form-control" id="nomeFuncionario" name="nomeFuncionario" placeholder="Ex.: José da Silva" value="<?php echo $row['nomeFuncionario'] ?>" maxlength="90">
                     </div>
                     <input type="hidden" name="codFuncionario" value="<?php echo $codFuncionario ?>">
-                    <div class="form-group col-md-3">
+                    <div class="form-group col-md-4">
                         <label for="campo3">RG:</label>
                         <input type="text" class="form-control" id="rgFuncionario" name="rgFuncionario" placeholder="000.000-00" value="<?php echo $row['rgFuncionario'] ?>" maxlength="12" readonly>
                     </div>
@@ -47,7 +47,7 @@ $codFuncionario = $_SESSION['codFuncionario'];?>
                         <label for="campo4">E-mail:</label>
                         <input type="email" class="form-control" id="emailFuncionario" name="emailFuncionario" placeholder="email@email.com.br" value="<?php echo $row['emailFuncionario'] ?>" maxlength="90">
                     </div>
-                    <div class="form-group col-md-3">
+                    <div class="form-group col-md-4">
                         <label for="campo2">CPF:</label>
                         
                         <input type="text" class="form-control" id="cpfFuncionario" name="cpfFuncionario" placeholder="000.000.000-00" onBlur="validaFormato(this);" onkeypress="return (apenasNumeros(event))" value="<?php echo $row['cpfFuncionario'] ?>" maxlength="14" readonly>
@@ -72,20 +72,18 @@ $codFuncionario = $_SESSION['codFuncionario'];?>
                 
                 <div class="row">
                     <input type="hidden" id="pagina" name="pagina" value="Perfil">
-                    <div class="form-group col-md-3">
+                    <div class="form-group col-md-4">
                         <label for="campo2">Login:</label>
                         <input type="text" class="form-control" id="loginUsuario" name="loginUsuario" placeholder="Ex.: josesilvaa" value="<?php echo $row['loginUsuario'] ?>" maxlength="40">
-                    </div>               
-                    <div class="form-group col-md-1">
                     </div>
-                    <div class="form-group col-md-3">
+                    <div class="form-group col-md-4">
                         <label for="campo1">Senha:</label>
                         <input type="password" class="form-control" id="senhaUsuario" name="senhaUsuario" placeholder="Ex.: 0000000" maxlength="16">
                     </div> 
                 </div>
 
                 <div class="row">
-                    <div class="form-group col-md-3">
+                    <div class="form-group col-md-4">
                         <label for="campo2">Confirma Senha</label>
                         <input type="password" class="form-control" id="confirmaSenha" name="confirmaSenha" placeholder="Ex.:000000" maxlength="16">
                     </div>                    
