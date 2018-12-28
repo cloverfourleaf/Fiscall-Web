@@ -1,6 +1,7 @@
 <html>
     <head>
 	<?PHP
+    require_once('../../verificaSession.php');//verifica se o usuario esta logado
 	ob_start();
 	session_start();
 	?>
