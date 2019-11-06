@@ -1,0 +1,35 @@
+version: "2.2"
+services:
+    www:
+        container_name: "www"
+        build: .
+        ports: 
+            - "8001:80"
+        volumes:
+            - ./www:/var/www/html/
+        links:
+            - db
+    db:
+        image: mysql:8.0
+        ports: 
+            - "88:88"
+        command: --default-authentication-plugin=mysql_native_password
+        environment:
+            MYSQL_DATABASE: bdfiscall
+            MYSQL_USER: root
+            MYSQL_PASSWORD: adm
+            MYSQL_ROOT_PASSWORD: root 
+        volumes:
+            - data:/var/lib/mysql
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        links: 
+            - db:db
+        ports:
+            - 8000:80
+        environment:
+            MYSQL_USER: root
+            MYSQL_PASSWORD: adm
+            MYSQL_ROOT_PASSWORD: root
+volumes:
+    data:
